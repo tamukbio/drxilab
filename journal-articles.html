@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Welcome to Dr. Weimin Xi's Webpage!</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<link href="css/box_design.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+   	 <style>
+        /* use navbar-wrapper to wrap navigation bar, the purpose is to overlay navigation bar above slider */
+        .navbar-wrapper {
+            position: absolute;
+            top: 0px;
+            left: 0;
+            width: 100%;
+            height: auto;
+
+        }
+        .navbar-wrapper > .container {
+            padding: 0;
+        }
+
+        @media all and (max-width: 768px ){
+            .navbar-wrapper {
+                position: relative;
+                top: 0px;
+            }
+        }
+    </style>
+
+    <div class="navbar-wrapper">
+        <div class="container">
+
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="margin-bottom: 0px;">
+                <div class="container">
+                    <div class="navbar-header">
+
+                        <button type="button"  class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar"  aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a class="navbar-brand" style="color: #FFC107;" href="http://www.tamuk.edu/"><img alt="Brand" src="images\logo.png"></a>
+                        <a class="navbar-brand" style="color: #FFC107;" href="index.html">The Xi Lab</a>
+
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">People <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="Xi.html">Dr. Xi</a></li>
+					            <li><a href="Lab-Members.html">Current Lab Members</a></li>
+					            <li><a href="Alumni.html">Alumni</a></li>
+					          </ul>
+					        </li>
+
+					        <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="Journal-Articles.html">Journal Articles</a></li>
+					            <li><a href="Book-Chapters.html">Book Chapters</a></li>
+					            <li><a href="Meeting-Presentations.html">Meeting Presentations</a></li>
+					          </ul>
+					        </li>
+
+					        <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">Teaching <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="Teaching.html">Undergraduate Courses</a></li>
+					            <li><a href="Teaching.html">Graduate Courses</a></li>
+					            <li><a href="Teaching.html">Seminars</a></li>
+					          </ul>
+					        </li>
+
+					        <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">Prospective Students <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="Prospective-Students.html">Graduate Students</a></li>
+					            <li><a href="Prospective-Students.html">Undergraduate Students</a></li>
+					            <li><a href="Prospective-Students.html">Visiting Scholars</a></li>
+					          </ul>
+					        </li>
+
+					        <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">Herbarium <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="http://plantsearch.tamuk.edu/">Digital Herbarium</a></li>
+					            <li><a href="http://plantsearch.tamuk.edu/search.html">Texas Plant Search</a></li>
+					            <li><a href="http://plantsearch.tamuk.edu/#wild_flowers">Wild Flowers of South Texas</a></li>
+					          </ul>
+					        </li>
+
+					        <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="LandisView.html" target="_blank">LANDISVIEW</a></li>
+					            <li><a href="http://www.landscape-ecology.org/index.html" target="_blank">The IALE</a></li>
+					            <li><a target="_blank" href="http://www.usiale.org/">The US-IALE</a></li>
+					            <li><a href="http://www.esa.org/esa/" target="_blank">The ESA</a></li>
+					          </ul>
+					        </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+
+   <div style="min-height: 50px;">
+        <!-- Jssor Slider Begin -->
+        <!-- To move inline styles to css file/block, please specify a class name for each element. -->
+        <!-- ================================================== -->
+        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
+        top: 40px; left: 0px; width: 1300px; height: 400px; overflow: hidden;">
+            <!-- Loading Screen -->
+            <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+                </div>
+                <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+                </div>
+            </div>
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: pointer; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                <div>
+                    <img u="image" src2="images/carousel/1.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="images/carousel/2.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="images/carousel/3.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="images/carousel/4.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="images/carousel/5.jpg" />
+                </div>
+            </div>
+
+            <!--#region Bullet Navigator Skin Begin -->
+            <!-- Help: http://www.jssor.com/development/slider-with-bullet-navigator-jquery.html -->
+            <style>
+                /* jssor slider bullet navigator skin 21 css */
+                /*
+                .jssorb21 div           (normal)
+                .jssorb21 div:hover     (normal mouseover)
+                .jssorb21 .av           (active)
+                .jssorb21 .av:hover     (active mouseover)
+                .jssorb21 .dn           (mousedown)
+                */
+                .jssorb21 {
+                    position: absolute;
+                }
+                .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+                    position: absolute;
+                    /* size of bullet elment */
+                    width: 19px;
+                    height: 19px;
+                    text-align: center;
+                    line-height: 19px;
+                    color: white;
+                    font-size: 12px;
+                   /* background: url(images/carousel/b05.png) no-repeat;*/
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+                .jssorb21 div { background-position: -5px -5px; }
+                .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+                .jssorb21 .av { background-position: -65px -5px; }
+                .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+            </style>
+            <!-- bullet navigator container -->
+            <div u="navigator" class="jssorb21" style="bottom: 26px; right: 6px;">
+                <!-- bullet navigator item prototype -->
+                <div u="prototype"></div>
+            </div>
+            <!--#endregion Bullet Navigator Skin End -->
+
+            <!--#region Arrow Navigator Skin Begin -->
+            <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+            <style>
+                /* jssor slider arrow navigator skin 21 css */
+                /*
+                .jssora21l                  (normal)
+                .jssora21r                  (normal)
+                .jssora21l:hover            (normal mouseover)
+                .jssora21r:hover            (normal mouseover)
+                .jssora21l.jssora21ldn      (mousedown)
+                .jssora21r.jssora21rdn      (mousedown)
+                */
+                .jssora21l, .jssora21r {
+                    display: block;
+                    position: absolute;
+                    /* size of arrow element */
+                    width: 55px;
+                    height: 55px;
+                    cursor: pointer;
+                    background: url(images/carousel/a21.png) center center no-repeat;
+                    overflow: hidden;
+                }
+                .jssora21l { background-position: -3px -33px; }
+                .jssora21r { background-position: -63px -33px; }
+                .jssora21l:hover { background-position: -123px -33px; }
+                .jssora21r:hover { background-position: -183px -33px; }
+                .jssora21l.jssora21ldn { background-position: -243px -33px; }
+                .jssora21r.jssora21rdn { background-position: -303px -33px; }
+            </style>
+            <!-- Arrow Left -->
+            <span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;">
+            </span>
+            <!-- Arrow Right -->
+            <span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;">
+            </span>
+            <!--#endregion Arrow Navigator Skin End -->
+
+        </div>
+        <!-- Jssor Slider End -->
+    </div>
+
+	<br><br><br>
+
+	<div class="container">
+		<div class="jumbotron">
+	<div class="">
+		<center>
+			<img src="images/xi2.jpg" style="width: 140px; height: 140px;" alt="..." class="img-circle">
+		</center>
+		<center>
+	<h2><small>Dr. Weimin Xi (<font style=""Papyrus": bold;" color="#000080" face="font-weight: bold;" : bold; size="6"><small>Ph.D.,</small></font style="font-weight: bold;" color="#000080" face="Papyrus" ><b>
+				<font color="#000080" face="font-weight: bold;" size="6"><small>
+					Professor of Biology, Certified Senior Ecologist</small></font style="font-weight: bold;" color="#000080" face="font-weight: bold;" ></b>)</h2>
+		</center>
+		<p align="center">
+			 Department of Biological and Health Sciences
+			<br>
+			 Texas A&amp;M University - Kingsville
+			<br>
+
+		</p>
+
+	</div>
+</div>
+		<hr>
+		<div class="row">
+
+			<div class="col-md-8">
+
+				<!-- Write Your Content Here -->
+
+
+				<div class="bs-callout bs-callout-warning" id="callout-glyphicons-dont-mix">
+
+					<p style="font-size: 16px">
+						The PDF files provided below may be printed as single copies for personal use only. Please contact the publisher for multiple copies.
+					</p>
+				</div>
+
+				<br>
+
+								<!--l-->
+				<blockquote>
+				  <p>
+				  Subedi, Mukti R., W. Xi*, Christopher B. Edgar, Sandra Rideout-Hanzak, Ming Yan. 2020. Tree mortality and biomass loss in drought-affected forests of East Texas, USA. Journal of Forestry Research (Online published 26 March 2020, doi.org/10.1007/s11676-020-01106-w).
+				  </p><footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1WexfQqZo43N1sRvk5sC7-3ibUQQI7aXL/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				 Xi*, W., Robert K. Peet, Michael T. Lee, Dean L. Urban. 2019. Hurricane disturbances, tree diversity, and succession in North Carolina Piedmont forests, USA. Journal of Forestry Research (Invited paper) 30 (1): 219-231.
+
+				 </p><footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1ArXbVBLqzczGbDVzQXrc0PcBqfkx_EY-">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  Subedi, Mukti R., W. Xi*, Christopher B. Edgar, Sandra Rideout-Hanzak, Brent C. Hedquist. 2019. Assessment of geostatistical methods for spatiotemporal analysis of drought patterns in east Texas, USA. Spatial Information Research 27 (1): 11-21.
+
+				  </p><footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=154jHLR_wTzbFwCwsBBycp5OXkCMoFx5t">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  Qin, Juan, Zhouping Shangguan, W. Xi*. 2019. Seasonal variations of leaf traits and drought adaptation strategies of four common woody species in South Texas, USA. Journal of Forestry Research (Invited paper)
+
+				  </p><footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1RQYoUqSLoVi1TsDmbXFixfdcL9RmF-E9">View pdf</a></cite></footer>
+
+				</blockquote>
+
+
+				<br>
+
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Sun, H., E. Dai, Y. Li, W. Xi*. 2018. Climate change and sustainable forestry: a regional perspective from northeast China. The Forestry Chronicle 94(03): 201-207.
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1HO_PQYIccyYuzr9I1GYDQnOHkuvUXfdx">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+
+				<blockquote>
+				  <p>
+				 Dai, E, Jianjia Zhu, Xiaoli Wang, W. Xi. 2018. Multiple ecosystem services of monoculture and mixed plantations: A case study of the Huitong experimental forest of Southern China. Land Use Policy 79(10): 717-724.
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1FOq-HKGVXE5sghY2vliqSQYst5LxXq8Q">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				 Wu, Z, E. Dai, Q. Ge, W. Xi, X. Wang. 2017. Modelling the integrated effects of land use and climate change scenarios on forest ecosystem aboveground biomass, a case study in Taihe County of China (in Chinese). Acta Geographica Sinica. 72:1539-1554.
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1d9K9gkqAUPEsIypTDJeZKdiIU0ckDFMq">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				 Dai, E., X. Wang, J. Zhu, W. Xi. 2017. Quantifying ecosystem service trade-offs for plantation forest management to benefit provisioning and regulating services. Ecology and Evolution 7:7807-7821.
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1JwDRytsmIssA66a-M1qR1YgVEyMTrhR8">View pdf</a></cite></footer>
+
+				</blockquote>
+
+
+				<br>
+
+				<blockquote>
+				  <p>
+				He, B, T. Guo, H. Huang, W. Xi, X. Chen. 2017. Physiological responses of Scaevola aemula seedlings under high temperature stress. South African Journal of Botany 112:203-209.
+				  </p>
+				<footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1_UDbCZvIaoe7UAnQkIAnlQfGv5H_xmZS">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Wu, Z, E. Dai, Q. Ge, W. Xi, X. Wang. 2017. Modelling the integrated effects of land use and climate change scenarios on forest ecosystem aboveground biomass, a case study in Taihe County of China. Journal of Geographical Sciences 27(2):205-222.
+				  </p>
+				<footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1x-MQjwi9VFmmjvdsq6QXMDEPpTwUllIb">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				 McCloughan, Ashley, Sandra Rideout-Hanzak, David Wester, W. Xi. 2017. Evaluating Removal of Competition on Morphology of Endangered Slender Rush-Pea (Hoffmannseggia tenella) Endemic to Southern Texas, USA. Natural Areas Journal: 37(3):382-393.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1Ha6gg5L5KKaDXR0EVx_asQ2KwO2N7hRe">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Qin, Juan, W. Xi, Alexander Rahmlow, Haiyan Kong, Zhen Zhang, Zhouping Shangguan. 2016. Effects of forest plantation types on leaf traits of Ulmus pumila and Robinia pseudoacacia on the Loess Plateau, China. Ecological Engineering: 97:416-425.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1nNy5sl8dkOED5wSP4K7D7DjBghQyn5k-">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				 Dai, Erfu, Heng Zhu, Zuo Wu, Xiaofan Wang, W. Xi, Jianjia Zhu. 2016. The impact of climate change on forest aboveground biomass in the Moshao forest farm of Huitong station (in Chinese). Chinese Journal of Applied Ecology: 27(10):3059-3069.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/open?id=1txzRQiEOOS7hsq5JBIZFzsae_yp-p7jo">View pdf</a></cite></footer>
+
+
+				</blockquote>
+
+				<br>
+
+
+				<!--l-->
+
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Dai, E., Z. Wu, Q. Ge, W. Xi, X. Wang. 2016. Predicting the responses of forest distribution and aboveground biomass to climate change under RCPs scenarios in southern China. Global Change Biology: 22 (11):3642-3661.x
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1hGarmNAis5H_yc9wcHL1jKdvGD0UwrUL/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+				<br>
+				<blockquote>
+				  <p>
+				  	Xi, W., E Dai, HS. He. 2016. Advances in forest landscape models: current research and applications. Progress in Geography: 35(1):35-46 (in Chinese, invited review).
+					</p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1HSHokpIh43bPC5W0k1S0X7_COMq8kHq0/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Ren, Yin, Shanshan Chen, Xiaohua Wei, W. Xi, Yunjian Luo, Xiaodong Song, Shudi Zuo, Yusheng Yang. 2016. Disentangling the factors that contribute to variation in forest biomass increment in the mid-subtropical forests of China. Journal of Forestry Research 27(4): 919-930
+				  </p>
+				 <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1VYispekwGUAJTTvXgxVRiRx6oYWEu0fG/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Wang, Lai, Chonggao Zhong, Pengxiang Gao, W. Xi, Shuoxin Zhang. 2015. Soil infiltration characteristics in agroforestry systems and their relationships with the temporal distribution of rainfall on the Loess Plateau in China. PLOS ONE 10 (4) DOI: 10.1371/journal.pone.0124767
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1JznCCf855-WRP5sOv3FiaUhrAdOnT44g/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W. 2015. Synergistic effects of tropical cyclones on forest ecosystems: A global synthesis. Journal of Forestry Research 26(1):1-21
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1RXsv4b3w5oerpcyPYgUnG8eEVn-gy3ph/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Hou, Lin, W. Xi, Shuoxin Zhang. 2015. Effect of understory on a natural secondary forest ecosystem carbon budget. Russian Journal of Ecology 46(1): 51–58
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/17llh-U5kME-tmyqrORa2ezirP6nA3_wf/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Dai, Erfu,  Zhuo Wu, Xiaofan Wang, Hua Fu, W. Xi, Tao Pan. 2015. Progress and prospect of research on forest landscape model. Journal of Geographical Sciences 25(1):113-128
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1Hr6rJZ78RoomfN4en8uoaeTjozrEpu2L/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xu, Huasen,  Huaxing Bi, W. Xi, Randy L. Powell, Lubo Gao and Lei Yun. 2014. Root distribution variation of crops under walnut-based intercropping systems in the loess plateau of China. Pakistan Journal of Agricultural Sciences 51(3):1-6
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1c3v43EYCD64y9FDanxBleIzfPpWDQykF/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W., Fugui Wang, Peili Shi, Erfu Dai, Ambrose O. Anoruo, Huaxing Bi, Alexander Rahmlow, Binghui He, and Wenhua Li.  2014. Challenges to sustainable development in China: a review of six large-scale forest restoration and land conservation programs. Journal of Sustainable Forestry 33 (5):435-453
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1NmsBPcRhntigxU5fuF803FkvYjhFLDl5/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Mairota, Paola, Vincenzo Leronni, W.Xi, David J. Mladenoff, Harini Nagendra. 2014. Using spatial simulations of habitat modification for adaptive management of protected areas: Mediterranean grassland modification by woody plant encroachment. Environmental Conservation 41 (2):144–156
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1RI3RAzY6Ulw2Sh_KtcMSLpiqGG5nywNa/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Andrew G. Birt, Zeng, Yu, Maria Tchakerian, Robert N. Coulson, Charles W. Lafon, David M. Cairns, John D. Waldron, W. Xi, Szu-Hung Chen, Douglas Streett. 2014. Evaluating Southern Appalachian Forest Dynamics without Eastern Hemlock: Consequences of Herbivory by the Hemlock Woolly Adelgid. Open Journal of Forestry 4(2): 91-99
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1sa2vvqh1AXI_Ls1AY1tTHOH6h9BUWD01/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Wang, Lei, Andrew G. Birt, Charles W. Lafon, David M. Cairns, Robert N. Coulson, Maria D. Tchakerian, W. Xi, Sorin C. Popescu, James M. Guldin.2013. Computer-based synthetic data to assess the tree delineation algorithm from airborne LiDAR survey. Geoinformatica 17:35–61
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1MAmpgZlGKNyz0pRSAd74nC2ayBKCAPvo/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W. 2013. Ecological Modeling for Informing Forest Restoration and Management. Forest Research: Open Access 2:113
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1GdnQioasmhwuv9vxYMEaOt9zdRN2-Lgp/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xiaoyan Wang, W. Xi, Niels Anten, Huaxing Bi. 2013. Development of Root-Carving Industry Leads to Ecological and Environmental Degradation in China. Forest Research: Open Access 2:1-3
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1mXiwp1k-HmW7-rJZI72xrhCWlZv81XfO/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xu, Huasen, Huaxing Bi, Lubo Gao, Lei Yun, Yifang Chang, W. Xi, Wenchao Liao, Biao Bao. 2013. Distribution and morphological variation of fine root in a walnut-soybean intercropping system in the Loess Plateau of China. International Journal of Agriculture and Biology 15(5):998-1002
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1zCaeGKz1wTGKv5RdJOEqtoQnMosYvWEj/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Chen, Jingjing, Binghui He, Xiaoyan Wang, Yun Ma, W. Xi. 2013. The effects of Herba Andrographitis hedgerows on soil erodibility and fractal features on sloping cropland in the Three Gorges Reservoir area. Environmental Science and Pollution Research 20(10):7063–7070
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1u0DBYjQumsNsTlEJjef0Rp3ZpRxlgkE7/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Gao, Lubo,  Huasen Xu, Huaxing Bi, W. Xi,  Biao Bao, Xiaoyan Wang, Chao Bi, Yifang Chang. 2013. Intercropping Competition between apple trees and crops in agroforestry systems on the Loess Plateau of China. PLoS ONE 8(7): e70739. doi:10.1371/journal.pone.0070739
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1zQIcyr1UzRg1WPCjc7dkmuL_CYc-UcZW/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	He, W., W. Xi,  and N.P.R Anten. 2013. Chronic wind and plant communities in dunes: total biomass, inter-specific competition, and species abundance. Journal of Arid Environments 90(1):69-76
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1g8O62v1jpROqI19ABJ2Ml4R6Gk4DxgYm/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Shang, Zongbo, Hong S. He, W. Xi, Stephen R. Shifley, and Brian J. Palik. 2012. Integrating LANDIS model and a multi-criteria decision-making approach to evaluate national forest management plan in Missouri Ozarks, USA. Ecological Modelling 229:50– 63
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1u2ddkZ0mxWRtajRZ85MPyrkG_eYEm_i5/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W.. 2012. Forest Restoration in a Changing World: Lessons from Diverse Ecosystems. In: Xi W-M (Ed) Forest Restoration. Tree and Forestry Science and Biotechnology 6 (Special Issue 1)
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1_H7honjtfSNGiXptOlacyhCEsscKkNkt/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Jonas, Sarah Z., W. Xi, John D. Waldron, Robert Coulson. 2012. The impacts of hemlock decline and the ecological considerations for forest restoration following Hemlock Woolly Adelgid outbreaks. Tree and Forestry Science and Biotechnology 6(1):22-26
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1cnK9f4mekDPJBBpIWMn-evJMwh2sEVZq/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., Szu-Hung Chen, Yi-Chien Chu. 2012. The synergistic effects of typhoon and earthquake disturbances on forest ecosystems: Lessons from Taiwan for ecological restoration and sustainable management. Tree and Forestry Science and Biotechnology 6 (1):27-33
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1zJXHmp76ugEbB6hQa6rYSVa2Mqh3OIrB/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., Robert K. Peet, and Dean L. Urban. 2012. The impacts of a large hurricane on understory sapling dynamics and diversity in North Carolina Piedmont forests, USA. Tree and Forestry Science and Biotechnology 6(1): 51-59
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1QfU5sUtenK8eGHaI7h0byrUAwSerkfX-/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Wu, Yuna, Jianping Tao, W. Xi,  Ke Zhao, Jianhui Hao. 2011. The edge effects on tree-liana relationship in a secondary natural forest in Bawangling Nature Reserve, Hainan Island, China. Acta Ecologica Sinica 31(11):3054-3059.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1vx3-r-7fHC-3Q5YX7k8_0m_QoGpzOxfT/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Birt, Andrew G., Valdez-Vivas, Martin,  Richard M. Feldman, Charles W. Lafon, David M. Cairns, Robert N. Coulson, Maria D. Tchakerian, W. Xi, James M. Guldin. 2010. A simple, stochastic weather generator for ecological modelling. Environmental Modelling & Software. 25:1252-1255
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1xCRIvkL885_ytsH59Cj7Nuu-kJRRD5Zr/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., Robert N. Coulson, Andrew G. Birt, Zongbo Shang, John D. Waldron, Charles W. Lafon, David M. Cairns, Maria D. Tchakerian, and Kier D. Klepzig. 2009. Review of forest landscape models: types, methods, development and applications. Acta Ecologica Sinica 29 (1):69-78
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1aLjZORK8xvHHkPy2KmItCuM37iy7HayL/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Birt, Andrew G., W. Xi, Robert N. Coulson. 2009. LANDISVIEW: A visualization tool for landscape modeling. Environmental Modelling & Software 24(11): 1339-1341
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1SA7FRgeAmJleJArPRrMkH2GXLRwPUTN2/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., John D. Waldron, Charles W. Lafon, David M. Cairns, Andrew G. Birt, Maria D. Tchakerian, Robert N. Coulson, and Kier D. Klepzig. 2009. Modeling long-term effects of altered fire regimes following southern pine beetle outbreaks. Ecological Restoration 27 (1):24-26
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1auGGd828HHG6yBL8CPJ2DPRKaYTirgkI/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Birt, Andrew G., Richard M. Feldman, David M. Cairns, Robert N. Coulson, Maria D. Tchakerian, W. Xi, James M. Guldin. 2009. Stage structured matrix models for organisms with non-geometric development times. Ecology 90(1):57-68
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1fXvkEaZF9jyuDKAEGhF3WRH5kF8s1cr5/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., Lei Wang, Andrew G. Birt, Maria D. Tchakerian, Robert N. Coulson, and Kier D. Klepzig. 2008. An integrated approach to mapping forest conditions in the southern Appalachians. Ecological Restoration 26(4):290-292
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1nvuAROrc8kft-xR-yw_QNC7g5WTG7lTx/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W. and Robert K. Peet. 2008. Hurricane effects on the Piedmont forests: Patterns and implications. Ecological Restoration 26(4):295-298
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1nvuAROrc8kft-xR-yw_QNC7g5WTG7lTx/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., Robert N. Coulson, John D. Waldron, Maria D. Tchakerian, Charles W. Lafon, David M. Cairns, Andrew G. Birt, and Kier D. Klepzig. 2008. Landscape modeling for forest restoration planning and assessment: Lessons from the southern Appalachian Mountains. Journal of Forestry 106(4):191-197
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1F0CWesS2F8wOHNjMa8UB1wgp0cEtM79C/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., Robert K. Peet, James K. DeCoster, and Dean L. Urban. 2008. Tree damage risk factors associated with large, infrequent wind disturbances of Carolina forests. Forestry 81(3):317-334
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1bVmS7w3hzfFwRol_xhisLnF5h0mRxWaJ/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Cairns, David M., Charles W. Lafon, Andrew G. Birt, John D. Waldron, Maria Tchakerian, Robert N. Coulson, W. Xi, and Kier Klepzig. 2008. Simulation modeling as a tool for understanding the landscape ecology of southern pine beetle infestations in southern Appalachian forests. Geography Compass 2(3):580-599.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1pAOd9V94S-buUxKQO97VROMOb9zPAegL/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., Robert K. Peet and Dean. L. Urban. 2008. Changes in forest structure, species diversity, and spatial pattern following hurricane disturbance in a Piedmont North Carolina forest, USA. Journal of Plant Ecology 1(1):43-57.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1bZJLmLzckIzs5aPoGfqN3qjn7ld6OYgw/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Cairns, David M., Charles W. Lafon, John D. Waldron, Maria Tchakerian, Robert N. Coulson, Kier D. Klepzig, Andrew G. Birt, W. Xi. 2008. Simulating the reciprocal interaction of forest landscape structure and Southern Pine Beetle herbivory using LANDIS. Landscape Ecology 23(4):403-415.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/14Hb7vj9PFOSb9rEpe6ZefUoi7ckMm9L3/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W. and Robert K. Peet. 2008. Long-term studies of forest dynamics in the Duke Forest, southeastern United States: A synthesis. Journal of Plant Ecology (Chinese Version) 32(2):299-318
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1qGHF-V7jq4ZMwuVK4mmIGWjtqxIh28s-/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Palmer, Michael W., Robert K. Peet, Rebecca A. Reed, W. Xi, and Peter S. White. 2007. A multiscale study of vascular plants in a North Carolina Piedmont forest. Ecology 88(10): 2674.
+				  </p>
+				  <footer><cite title="Source Title">
+				  	<a target="_blank" href="https://drive.google.com/file/d/1p6ketyhTiW4fQkbTmJLata6CSTiovI8t/view?usp=sharing">View pdf</a>
+				  	<br>
+				  	This is a data paper, and the bulk of the description of the data can be found at <a target="_blank" href="http://esapubs.org/archive/ecol/E088/162/default.htm"> Ecological Archives E088-162 </a>
+				  	</cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Qinfeng Guo, Hong Qian, Robert E. Ricklefs, W. Xi. 2006. Distributions of exotic plants in eastern Asia and North America. Ecology Letters (9):827-834
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1KZj3ebmbRp5ECycNoidPqVjyEER8GX7f/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+
+
+				<blockquote>
+				  <p>
+				  Xi, W. 1999. Geographic Information Systems (GIS) Technology in geographical education. Teaching Resources for Geographical Education (1&2):1-7.
+
+				  </p><footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1zfAG79wcyxOsAtbyb5neZ5dhUSdPjU63/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Dai, E. H. Fu, Y. Liu, W. Xi, J. Liu. 1998. Vegetation resource and development in the Sunzhazi Village of Huairou County, Beijing. Journal of Capital Normal University (Natural Science Edition) 19(4):91-94
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1_goNFU2s4nXqiEAbDPYx7GFXoDPVQ1H0/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W., H Fu, W. Bi. 1998. Environmental characteristics and ecological economic developing models in Beijing suburban region, China. Economic Geography 18(1):62-68.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1MQ_YwZp16mdDqAF44sU0jFl4Lp8kKHD5/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+
+				<blockquote>
+				  <p>
+				  	Li,J., W. Xi, H. Fu, L. Su. 1997. New approach for developing web-based Geographical Information System. Computer Engineering and Applications 33(9):18-20
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/101OIN5iv-dUumswgSzj3fbwr-s3VJtG7/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W., H. Fu, W. Bi. 1997. Strategy of utilizing natural resources and optimal eco-economic model in Beijing suburban region. Pages 142-151 in Proceedings of the International Symposium for Environmental Science. Tokyo Metropolitan University Press. Tokyo, Japan.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1dhVSzmpos9qLc3PVDQIF12vovYdjFPq8/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Liu, J., W. Xi. 1997. Vegetation and vertical distribution in the Wuling mountain area, China. Journal of Capital Normal University (Natural Science Edition) 18(1):96-103.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1G9WW3AW9-Z1pRxoLzdT9FrgzF-CgZq-X/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Li, X., W. Xi, Y. Wang. 1997. The environmental characteristics and regional sustainable development in Miyun County, Beijing. Journal of Capital Normal University (Natural Science Edition)  18(4): 70-73
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1A2zakpzLk7L6l58vLOU3LhrknZUkn08y/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+
+				<!--l-->
+				<blockquote>
+				  <p>
+				  Xi, W. 1997. Forest species diversity of Wuling National Natural Reserve. Biodiversity Science 5(2):121-125
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1At--mL9r81D89D30PTm0G3vbzSc_ajIK/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<!--l-->
+				<blockquote>
+				  <p>
+				  Xi, W., Hua Fu, Yanan Ren, Jian Li. 1997. Design and development of a natural resource management information system for the Beijing mountainous region. Journal of Capital Normal University 18 (2):113-118
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1qRDk0GA9SurRKu5csEFVEx4bGrchLkP3/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Peng, Y., W. Xi. 1996. Design and development of a geographical teaching mangement information system. Journal of Capital Normal University (Natural Science Edition) 17(4):98-103.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1DdIJr0ztFhxHQifr-rcveQX417rSrjnP/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<!--l-->
+				<blockquote>
+				  <p>
+				  Li, X.,Y. Wang, W. Xi, Z. Tian. 1996. Environmental assessment for the sustainable food product developing regions in Beijing. China. Journal of Capital Normal University 17(1): 96-100
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1MQ_YwZp16mdDqAF44sU0jFl4Lp8kKHD5/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  Xi, W. 1996. Wild economic plant resources in the Wuling National Natural Reserve. Territory and Natural Resources Research (3):63-66
+
+				  </p><footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1HSHokpIh43bPC5W0k1S0X7_COMq8kHq0/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  Xi, W., Y. Wang, X. Li, Z.Tian. 1996. On organic food Project planning. Chinese Agricultural Science Bulletin 12(3):32-34.
+
+				  </p><footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1rId60imWd_EKI0X4vPy370qz4ZSsgj5T/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  Xi, W., Z.Tian, Y. Wang, X. Li. 1996. Specialty product project planning and sustaible economic development in Beijing. Economic Geography 16(1):55-61.
+
+				  </p><footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1ah-tb7HacjG0ekdmRJFRoYa1FQBhNqu9/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+
+				<br>
+
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Xi, W., Zhangcheng Zhong, Runcheng Bi. 1995. Study on gap dynamics in subtropical forest communities, Pages 250-257 in Y. Song, D. Hartmut, X. Wang (eds.). Applied Vegetation Ecology, Proceedings of the 35th Annual Symposium of International Association for Vegetation Science. East China Normal University Press. Shanghai. China
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1cl1gPh1fnGniEF1pt8VbEOYQsj3EQsq8/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+
+				<blockquote>
+				  <p>
+				 Xi, W., Y. Wang, X. Li, Z.Tian. 1995. Environmental assessment and project planning for sustainable food product developing regions in Beijing, China. Territorial Development and Management 5(1):151-154.
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1MPydKdFGq_I-90qDfNoNo35tNQrWPUv8/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				 Xi, W. 1995. Wild economic plants in Huairou mountainous region. Territorial Development and Management 5(5):82-86.
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1ZyEZXuACsmJCaIEm4oGhg9LKtwVGf7Qh/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				 Xi, W. 1994. Wild ornamental plant resources in Beijing mountainous region. Journal of Mountain Science 12(3):169-173.
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1Oy1KdyoOT2G017TlYR-SiO-dFkUUfWPi/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+
+				<br>
+
+				<blockquote>
+				  <p>
+				 Xi, W, J. Liu. 1993. Characteristics of grasslands and utilization policies in Beijing mountainous region. Journal of Shanxi Normal University (2):27-30
+				  </p>
+				<footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1UFnshZ5dwD7s7-0Hil7MluUx3zNhP2Xd/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Xi, W. 1993. Niche structure of dominant shrub population in Beijing mountainous region. Journal of Plant Ecology 7(4):324-330
+				  </p>
+				<footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1OSVv_ap25-cadFV6JCRHiryCqiVpq8UK/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Xi, W., Zhangcheng Zhong, Runcheng Bi. 1993. Gap edge effect in the subtropical forest communities in Jinyun mountain, Sichuan, China. Journal of Plant Ecology 17(3):232-242
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1EYUWIUD2yZrkNdeJRhqFo-OsT8e2VNwN/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Xi, W., J. Liu, W. He. 1993. Numerical classification of forest vegetation in Wuling National Natural Reserve. Journal of Mountain Science 11(1):37-42
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1G3H_INr7bF8uj-D6tAq9odsDgL5OczQL/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				 Xi, W., Zhangcheng Zhong, Runcheng Bi. 1992. Advance in forest gap research: An overview. Journal of Southwest University 17(2):274-286
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1g3zMjiz2p1T0cnZFDVn6cjhXpdUl0hJ3/view?usp=sharing">View pdf</a></cite></footer>
+
+
+				</blockquote>
+
+				<br>
+
+
+				<!--l-->
+
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Xi, W. 1992. Numerical classification on deciduous broad-leaved shrubs in Beijing Huairou mountainous region. Journal of Capital Normal University 13 (2):81-86
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/13lynfC2_z2FQaRJsffm7gEeM7mFE1eCF/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+				<br>
+				<blockquote>
+				  <p>
+				  	Xi, W. 1992. Vegetation characteristics of deciduous, broad-leaved shrub communities in Beijing Huairou mountainous region. Journal of Capital Normal University (Natural Science Edition) 13(1):85-88.
+				  </p>
+				  <footer><cite title="Source Title"><a target="https://drive.google.com/file/d/1EyYEQMGfbM95YXutSin7dgdFk7Sgao23/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<!--l-->
+				<blockquote>
+				  <p>
+				 Xi, W. 1991. Ordination of deciduous broad-leaved shrub communities in Beijing Huairou mountainous region. Journal of Southwest University 16(4): 479-486
+				  </p>
+				 <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1_0WgSLZYQqtmLDl8GOozXS1wNM2a7z6G/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+
+				<!-- End Of Content -->
+			</div>
+
+			<!-- Right Side Navigation Bar -->
+			<div class="col-md-4">
+
+				<!-- Carousel -->
+
+				<div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+
+					<div class="carousel-inner" role="listbox">
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#777:#777" alt="900x500" src="images/smallcarousel/1.jpg" data-holder-rendered="true">
+							<!--<div class="carousel-caption">
+								<h3>First slide label</h3>
+								<p>
+									Nulla vitae elit libero, a pharetra augue mollis interdum.
+								</p>
+							</div>-->
+						</div>
+						<div class="item active">
+							<img data-src="holder.js/900x500/auto/#666:#666" alt="900x500" src="images/smallcarousel/2.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Second slide label</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500"  src="images/smallcarousel/3.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/4.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/5.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/6.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/7.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/8.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/9.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/10.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+
+					</div>
+					<a class="left carousel-control" href="#carousel-example-captions" role="button" data-slide="prev">
+
+						<i class="fa fa-chevron-left" style="position: absolute;top: 50%;z-index: 5;display: inline-block;margin-top: -10px;"></i>
+						<span class="sr-only">Previous</span>
+					</a>
+
+					<a class="right carousel-control" href="#carousel-example-captions" role="button" data-slide="next">
+						 <i class="fa fa-chevron-right" style="position: absolute;top: 50%;z-index: 5;display: inline-block;margin-top: -10px;"></i>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+
+				<!-- Carousel -->
+
+				 <br>
+
+
+
+				<h3 style="color: #27ae60">New Publications </h3>
+				<hr>
+
+				<div class="list-group" style="font-size: 15px;">
+				  <a href="https://drive.google.com/file/d/1nCkJCE1k3UqE0RqDxw-6tCnqj-IsAYxe/view?usp=sharing" target="_blank" class="list-group-item " >Forest succession models</a>
+				  <a href="https://drive.google.com/file/d/1HSHokpIh43bPC5W0k1S0X7_COMq8kHq0/view?usp=sharing" target="_blank" class="list-group-item " >Advances in forest landscape modeling</a>
+				  <a href="https://drive.google.com/file/d/1RXsv4b3w5oerpcyPYgUnG8eEVn-gy3ph/view?usp=sharing" target="_blank" class="list-group-item " >A global synthesis of tropical cyclones on forests</a>
+				  <a href="https://drive.google.com/file/d/1NmsBPcRhntigxU5fuF803FkvYjhFLDl5/view?usp=sharing" target="_blank" class="list-group-item " >A review of forest restoration programs in China </a>
+				  <a href="Journal-Articles.html" target="_blank" class="list-group-item " style="font-size: 18px;"><center><i class="fa fa-angle-double-down"></i> </center></a>
+				</div>
+
+
+				<!--
+				<h3 style="color: #27ae60">Software</h3>
+				<hr>
+
+				<div class="list-group" style="font-size: 15px;">
+				  <a href="http://users.tamuk.edu/kuwx2000/landisview.html" target="_blank" class="list-group-item " >LANDISVIEW</a>
+				  <a href="https://drive.google.com/file/d/1SA7FRgeAmJleJArPRrMkH2GXLRwPUTN2/view?usp=sharing" target="_blank" class="list-group-item " >LANDISVIEW Paper</a>
+				</div>
+
+
+
+				<h3 style="color: #27ae60">Useful Links</h3>
+				<hr>
+
+				<div class="list-group" style="font-size: 15px;">
+				  <a href="http://ecology.wisc.edu/" target="_blank" class="list-group-item " >Wisconsin Ecology</a>
+				  <a href="http://www.landscape-ecology.org/index.html" target="_blank" class="list-group-item " >The IALE</a>
+				  <a target="_blank" href="http://www.usiale.org/" class="list-group-item " >The US-IALE</a>
+				  <a target="_blank" href="http://www.esa.org/" class="list-group-item " >The ESA</a>
+				</div>
+				-->
+			</div>
+
+		</div>
+   </div>
+
+
+   <footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About The Xi Lab</span>
+					Research in the Xi lab focuses on plant biodiversity, ecosystem ecology, climate change biology, ecoinformatics and landscape modeling, ecology of human dissease and health, and global sustainability.
+				</p>
+
+
+
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p>Kingsville, Texas 78363, USA </p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 361-593-2758</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:weimin.xi@tamuk.edu"> weimin.xi@tamuk.edu</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-left">
+
+				<h3><span>The Xi Lab</span></h3>
+
+				<p class="footer-links">
+					<a href="Xi.html">Dr. Xi</a>
+					·
+					<a href="Journal-Articles.html">Publications</a>
+					·
+					<a href="Teaching.html">Teaching</a>
+					·
+					<a href="Prospective-Students.html">Prospective Students</a>
+					·
+					<a href="http://plantsearch.tamuk.edu/" target="_blank">Herbarium</a>
+					·
+					<a href="LandisView.html">Links</a>
+				</p>
+
+				<p class="footer-company-name">Weimin Xi &copy; 2022</p>
+			</div>
+
+
+
+
+		</footer>
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Script for Dropdown while hovering -->
+    <script src="js/bootstrap-hover-dropdown.min.js"></script>
+    <!-- Jssor js for carousel -->
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+        <script>
+        jQuery(document).ready(function ($) {
+
+            var options = {
+                $FillMode: 2,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $Idle: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
+                $SlideDuration: 800,                               //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $Cols: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
+
+                $BulletNavigatorOptions: {                          //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                 //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Rows: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 8,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 8,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                    $Scale: false                                   //Scales bullets navigator or not while slider scale
+                },
+
+                $ArrowNavigatorOptions: {                           //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+    <script>
+    	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
+
+
+function toggleChevron(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find("i.fa")
+        .toggleClass('fa-chevron-down fa-chevron-up');
+}
+$('#accordion').on('hidden.bs.collapse', toggleChevron);
+$('#accordion').on('shown.bs.collapse', toggleChevron);
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,800 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Welcome to Dr. Weimin Xi's Webpage!</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<link href="css/box_design.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+   	 <style>
+        /* use navbar-wrapper to wrap navigation bar, the purpose is to overlay navigation bar above slider */
+        .navbar-wrapper {
+            position: absolute;
+            top: 0px;
+            left: 0;
+            width: 100%;
+            height: auto;
+
+        }
+        .navbar-wrapper > .container {
+            padding: 0;
+        }
+
+        @media all and (max-width: 768px ){
+            .navbar-wrapper {
+                position: relative;
+                top: 0px;
+            }
+        }
+    </style>
+
+    <div class="navbar-wrapper">
+        <div class="container">
+
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="margin-bottom: 0px;">
+                <div class="container">
+                    <div class="navbar-header">
+
+                        <button type="button"  class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar"  aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a class="navbar-brand" style="color: #FFC107;" href="http://www.tamuk.edu/"><img alt="Brand" src="images\logo.png"></a>
+                        <a class="navbar-brand" style="color: #FFC107;" href="index.html">The Xi Lab</a>
+
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">People <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="Xi.html">Dr. Xi</a></li>
+					            <li><a href="Lab-Members.html">Current Lab Members</a></li>
+					            <li><a href="Alumni.html">Alumni</a></li>
+					          </ul>
+					        </li>
+
+					        <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="Journal-Articles.html">Journal Articles</a></li>
+					            <li><a href="Book-Chapters.html">Book Chapters</a></li>
+					            <li><a href="Meeting-Presentations.html">Meeting Presentations</a></li>
+					          </ul>
+					        </li>
+
+					        <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">Teaching <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="Teaching.html">Undergraduate Courses</a></li>
+					            <li><a href="Teaching.html">Graduate Courses</a></li>
+					            <li><a href="Teaching.html">Seminars</a></li>
+					          </ul>
+					        </li>
+
+					        <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">Prospective Students <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="Prospective-Students.html">Graduate Students</a></li>
+					            <li><a href="Prospective-Students.html">Undergraduate Students</a></li>
+					            <li><a href="Prospective-Students.html">Visiting Scholars</a></li>
+					          </ul>
+					        </li>
+
+					        <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">Herbarium <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="http://plantsearch.tamuk.edu/">Digital Herbarium</a></li>
+					            <li><a href="http://plantsearch.tamuk.edu/search.html">Texas Plant Search</a></li>
+					            <li><a href="http://plantsearch.tamuk.edu/#wild_flowers">Wild Flowers of South Texas</a></li>
+					          </ul>
+					        </li>
+
+					        <li class="dropdown">
+					          <a href="#" style="color: #FFC107; font-size: 16px;" class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="0" data-close-others="false" aria-haspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="LandisView.html" target="_blank">LANDISVIEW</a></li>
+					            <li><a href="http://www.landscape-ecology.org/index.html" target="_blank">The IALE</a></li>
+					            <li><a target="_blank" href="http://www.usiale.org/">The US-IALE</a></li>
+					            <li><a href="http://www.esa.org/esa/" target="_blank">The ESA</a></li>
+					          </ul>
+					        </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+
+   <div style="min-height: 50px;">
+        <!-- Jssor Slider Begin -->
+        <!-- To move inline styles to css file/block, please specify a class name for each element. -->
+        <!-- ================================================== -->
+        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
+        top: 40px; left: 0px; width: 1300px; height: 400px; overflow: hidden;">
+            <!-- Loading Screen -->
+            <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+                </div>
+                <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+                </div>
+            </div>
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: pointer; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                <div>
+                    <img u="image" src2="images/carousel/1.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="images/carousel/2.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="images/carousel/3.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="images/carousel/4.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="images/carousel/5.jpg" />
+                </div>
+            </div>
+
+            <!--#region Bullet Navigator Skin Begin -->
+            <!-- Help: http://www.jssor.com/development/slider-with-bullet-navigator-jquery.html -->
+            <style>
+                /* jssor slider bullet navigator skin 21 css */
+                /*
+                .jssorb21 div           (normal)
+                .jssorb21 div:hover     (normal mouseover)
+                .jssorb21 .av           (active)
+                .jssorb21 .av:hover     (active mouseover)
+                .jssorb21 .dn           (mousedown)
+                */
+                .jssorb21 {
+                    position: absolute;
+                }
+                .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+                    position: absolute;
+                    /* size of bullet elment */
+                    width: 19px;
+                    height: 19px;
+                    text-align: center;
+                    line-height: 19px;
+                    color: white;
+                    font-size: 12px;
+                   /* background: url(images/carousel/b05.png) no-repeat;*/
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+                .jssorb21 div { background-position: -5px -5px; }
+                .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+                .jssorb21 .av { background-position: -65px -5px; }
+                .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+            </style>
+            <!-- bullet navigator container -->
+            <div u="navigator" class="jssorb21" style="bottom: 26px; right: 6px;">
+                <!-- bullet navigator item prototype -->
+                <div u="prototype"></div>
+            </div>
+            <!--#endregion Bullet Navigator Skin End -->
+
+            <!--#region Arrow Navigator Skin Begin -->
+            <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+            <style>
+                /* jssor slider arrow navigator skin 21 css */
+                /*
+                .jssora21l                  (normal)
+                .jssora21r                  (normal)
+                .jssora21l:hover            (normal mouseover)
+                .jssora21r:hover            (normal mouseover)
+                .jssora21l.jssora21ldn      (mousedown)
+                .jssora21r.jssora21rdn      (mousedown)
+                */
+                .jssora21l, .jssora21r {
+                    display: block;
+                    position: absolute;
+                    /* size of arrow element */
+                    width: 55px;
+                    height: 55px;
+                    cursor: pointer;
+                    background: url(images/carousel/a21.png) center center no-repeat;
+                    overflow: hidden;
+                }
+                .jssora21l { background-position: -3px -33px; }
+                .jssora21r { background-position: -63px -33px; }
+                .jssora21l:hover { background-position: -123px -33px; }
+                .jssora21r:hover { background-position: -183px -33px; }
+                .jssora21l.jssora21ldn { background-position: -243px -33px; }
+                .jssora21r.jssora21rdn { background-position: -303px -33px; }
+            </style>
+            <!-- Arrow Left -->
+            <span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;">
+            </span>
+            <!-- Arrow Right -->
+            <span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;">
+            </span>
+            <!--#endregion Arrow Navigator Skin End -->
+
+        </div>
+        <!-- Jssor Slider End -->
+    </div>
+
+	<br><br><br>
+
+	<div class="container">
+		<div class="jumbotron">
+	<div class="">
+		<center>
+			<img src="images/xi2.jpg" style="width: 140px; height: 140px;" alt="..." class="img-circle">
+		</center>
+		<center>
+	<h2><small>Dr. Weimin Xi (<font style=""Papyrus": bold;" color="#000080" face="font-weight: bold;" : bold; size="6"><small>Ph.D.,</small></font style="font-weight: bold;" color="#000080" face="Papyrus" ><b>
+				<font color="#000080" face="font-weight: bold;" size="6"><small>
+					Professor of Biology, Certified Senior Ecologist</small></font style="font-weight: bold;" color="#000080" face="font-weight: bold;" ></b>)</h2>
+		</center>
+		<p align="center">
+			 Department of Biological and Health Sciences
+			<br>
+			 Texas A&amp;M University - Kingsville
+			<br>
+
+		</p>
+
+	</div>
+</div>
+		<hr>
+		<div class="row">
+
+			<div class="col-md-8">
+
+				<!-- Write Your Content Here -->
+				<h3 style="color: #27ae60"> Recent Book//Encyclopedia Chapters/Technical Reports/Refereed Papers in Conference Proceedings:</h3>
+
+				<br>
+
+				<div class="bs-callout bs-callout-warning" id="callout-glyphicons-dont-mix">
+
+					<p style="font-size: 16px">
+						The PDF files provided below may be printed as single copies for personal use only. Please contact the publisher for multiple copies.
+					</p>
+				</div>
+
+				<br>
+
+				<blockquote>
+				  <p>
+
+Larocque, G.R., H.H. Shugart, W. Xi and J.A. Holm.  2016. Forest succession models. In Larocque (ed.) Ecological forest management handbook. CRC Press.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1nCkJCE1k3UqE0RqDxw-6tCnqj-IsAYxe/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Larocque, G.R., A. Komarov, O. Chertov, V. Shanin, J. Liu, J. Bhatti, W. Wang, C. Peng, H.H. Shugart, W. Xi and J.A. Holm. 2016. Process-based models: a synthesis of models and applications to address environmental and management issues. In Larocque (ed.) Ecological forest management handbook. CRC Press.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/111sfsN6aHoMxKZBUnNIRt98OS6kLuHsU/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W. (Co-Author). 2015. Forecasting Forested Landscapes: An Introduction to LANDIS-II with Exercises (Chapter 7 Understanding Model Outputs; Chapter 11 Introduction to Disturbance; Chapter 14 Final Synthesis: Putting All Together!) (3rd ed.) The LANDIS-II Fundation. CreateSpace
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="">If you like to purchase a copy ($39.99), contact Robert Scheller (rschell <at> ncsu.edu)</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Janowiak, Maria K.; Iverson, Louis R.; Mladenoff, David J.; Peters, Emily; Wythers, Kirk R.; Xi, W.; Brandt, Leslie A.; Butler, Patricia R.; Handler, Stephen D.; Shannon, P. Danielle; Swanston, Chris; Parker, Linda R.; Amman, Amy J.; Bogaczyk, Brian; Handler, Christine; Lesch, Ellen; Reich, Peter B.; Matthews, Stephen; Peters, Matthew; Prasad, Anantha; Khanal, Sami; Liu, Feng; Bal, Tara; Bronson, Dustin; Burton, Andrew; Ferris, Jim; Fosgitt, Jon; Hagan, Shawn; Johnston, Erin; Kane, Evan; Matula, Colleen; O'Connor, Ryan; Higgins, Dale; St. Pierre, Matt; Daley, Jad; Davenport, Mae; Emery, Marla R.; Fehringer, David; Hoving, Christopher L.; Johnson, Gary; Neitzel, David; Notaro, Michael; Rissman, Adena; Rittenhouse, Chadwick; Ziel, Robert. 2014. Forest ecosystem vulnerability assessment and synthesis for northern Wisconsin and western Upper Michigan: a report from the Northwoods Climate Change Response Framework project. Gen. Tech. Rep. NRS-136. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. 247 p
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1ON3gsMfSCA3vZrfDF1yKKIRUmA0OOPdN/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Waldron, John D., W. Xi. 2013. Forest Restoration: Simple Concept, Complex Process. Forest Research: Open Access
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1-dAEDZ4zI16tpiLuOpka6yKU9O-D6N7H/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W. (Guest Editor). 2012. Tree and Forestry Science and Biotechnology  6 (1) (Special Issue on Forest Restoration). Global Science Books Ltd., UK
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="http://www.globalsciencebooks.info/Online/GSBOnline/OnlineTFSB_6_SI1.html">View Weblink</a>
+				  	<br>
+				  	<a target="_blank" href="https://drive.google.com/file/d/131wQrWdvR9TPMwHYLVjYvFYvzgfLH-JZ/view?usp=sharing">View Issue Information</a>
+				  </cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W. 2012. Climate Data Re-analysis. In S. George Philander (ed). Encyclopedia of Global Warming and Climate Change (2nd Edition). SAGE Publications, Inc
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="http://www.sagepub.com/books/Book235700">View Book</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W. 2012. Wisconsin. In S. George Philander (ed). Encyclopedia of Global Warming and Climate Change (2nd Edition). SAGE Publications, Inc
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="http://www.sagepub.com/books/Book235700">View Book</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W. 2012. North Carolina. In S. George Philander (ed). Encyclopedia of Global Warming and Climate Change (2nd Edition). SAGE Publications, Inc
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="http://www.sagepub.com/books/Book235700">View Book</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W., Huaxing Bi, Binghui He. 2012. Forest landscape restoration in China. In John Stanturf, Palle Madsen and David Lamb (eds.).<a target="_blank" href="http://www.springer.com/us/book/9789400753372"> A Goal-oriented Approach to Forest Landscape Restoration.</a> Springer
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1rtRSFHvOWURgmhK10dj90z_5WOoCaNTW/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W., John D. Waldron, David M. Cairns, Charles W. Lafon, Andrew G. Birt, Maria D. Tchakerian, Kier D. Klepzig, and Robert N. Coulson. 2012. Restoration of southern pine forests after the southern pine beetle. In John Stanturf, Palle Madsen and David Lamb (eds.).<a target="_blank" href="http://www.springer.com/us/book/9789400753372"> A Goal-oriented Approach to Forest Landscape Restoration. </a> Springer.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1iA4ficYFhqx4QHA7HwYHSg9yIcFZb9Re/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W. and Robert K. Peet. 2011. The complexity of catastrophic wind disturbance on temperate forests. Pages 503-534 in Anthony Lupo (editor). Recent Hurricane Research: Climate, Dynamics, and Societal Impacts. ISBN 978-953-307-238-8. InTech, Vienna, Austria
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="http://www.intechopen.com/books/recent-hurricane-research-climate-dynamics-and-societal-impacts/the-complexity-of-catastrophic-wind-impacts-on-temperate-forests">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Waldron, J., R. Coulson, D. Cairns, C. Lafon, M. Tchakerian, W. Xi, K. Klepzig, and A. Birt. 2010. Evaluating the Impact of Invasive Species in Forest Landscapes: the southern pine beetle and the hemlock woolly adelgid. In: J. Pye, H. Rauscher, Y. Sands, D. Lee, J. Beaty (tech eds.) Advances in Threat Assesment and Their Application to Forest and Rangeland Management Volume 2. Gen. Tech. Rep. PNW-GTR-802. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest and Southern Research Stations.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1byXc9J2Gl0hDGvkJO8OIWmOIq-GtL5b0/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., Jianping Tao, and Xuguang Li. 2009. The complexity of catastrophic wind impact on forest ecosystems: A synthesis. (In Chinese with English Abstract). Pages 233-251 in Ming Dong and Marinus J.A. Werger (eds.). A Spectrum of Ecological Studies. Southwest University Press
+				  </p>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., L. Wang, M. Tchakerian, R. Coulson. 2009. South pine beetle hazard in the Pisgah National Forest, North Carolina: Mapping south pine beetle hazard in the Southern Appalachian Mountains. Pages 57-60 in Peter Eredics (ed.) Mapping Forestry. ESRI Map Book. ESRI Press.
+				  </p>
+				 <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1YIokIpT_68QSi431yMHnVHJdCMNHQLUG/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Waldron, John D., Robert N. Coulson, David M. Cairns, Charles W. Lafon, Maria D. Tchakerian, W. Xi, Kier D. Klepzig, and Andrew G. Birt. 2008. Evaluating the impact of invasive species in forest landscapes: southern pine beetle and the hemlock woolly adelgid. The Encyclopedia of Forest Environmental Threats
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="http://www.forestencyclopedia.net/p/p3313">View Weblink</a></cite></footer>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1tiaWQboSCrgcF8HXFwgUllMYlbGXTPez/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W., John D. Waldron, Robert N. Coulson, Maria D. Tchakerian, David M. Cairns, Charles W. Lafon, Andrew G. Birt, and Kier D. Klepzig. 2007. Landscape modeling for forest restoration: Concepts and Applications. Pages 92-95 in Stanturf, John (ed.). Proceedings of the IUFRO Conference on Forest Landscape Restoration. Seoul, Korea 14-19 May 2007. Korea Forest Research Institute, 268pp
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1lHrjnNCXUHFAcE0uYzbPK25eRGMrDDXo/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+
+				<blockquote>
+				  <p>
+				  	Xi, W. Characteristics of grasslands and sustainable development strategy for suburban husbandry economy in Beijing region. 1996. Pages 38-42 in Ministry of Agriculture of the People's Republic of China (Ed.). Research Progress in Animal Industry and Animal Products Processing. China Agricultural Science and Technology Press.
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1UFnshZ5dwD7s7-0Hil7MluUx3zNhP2Xd/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W. (Co-author). 1998. Physical and socio-economic conditions in China. Pages 20-28 in China Biodiversity: A Country Case. Chinese Environmental Science Press. Beijing, China. Chinese Environmental Protection Agency. 476 pp
+
+				  </p>
+				  <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/141keewVgZHQRKymWYZe0ezG2wX0JTCYt/view?usp=sharing">View pdf</a></cite></footer>
+
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>Xi, W. (Co-author and Co-editor). 1997. Village-Level Sustainable Development through science, technology, and education. Pages 152-166 in X. Sun (ed), Revitalizing China’s Countryside through Science, Technology & Education. Chinese Agricultural Science Press. Beijing, China. 187 pp
+
+				  </p>
+				 <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1o-pYUn8v0pFvgnKZRi-Adc4V71hh3Iih/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+				<br>
+				<!--l-->
+				<blockquote>
+				  <p>
+				  	Xi, W. (Co-editor, Author of one fourth of the book). 1990. Handbook of wild economic plants in Beijing mountainous region, Science and Technology Literature Press. Beijing, China. 497 pp
+				  </p>
+				 <footer><cite title="Source Title"><a target="_blank" href="https://drive.google.com/file/d/1CDQb9zIroNV0M6jk_XrzncWNd1Dn7Q0c/view?usp=sharing">View pdf</a></cite></footer>
+				</blockquote>
+
+
+
+
+				<!-- End Of Content -->
+			</div>
+
+			<!-- Right Side Navigation Bar -->
+			<div class="col-md-4">
+
+				<!-- Carousel -->
+
+				<div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+
+					<div class="carousel-inner" role="listbox">
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#777:#777" alt="900x500" src="images/smallcarousel/1.jpg" data-holder-rendered="true">
+							<!--<div class="carousel-caption">
+								<h3>First slide label</h3>
+								<p>
+									Nulla vitae elit libero, a pharetra augue mollis interdum.
+								</p>
+							</div>-->
+						</div>
+						<div class="item active">
+							<img data-src="holder.js/900x500/auto/#666:#666" alt="900x500" src="images/smallcarousel/2.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Second slide label</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500"  src="images/smallcarousel/3.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/4.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/5.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/6.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/7.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/8.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/9.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#555:#555" alt="900x500" src="images/smallcarousel/10.jpg" data-holder-rendered="true">
+						<!--	<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+								</p>
+							</div>
+						-->
+						</div>
+
+					</div>
+					<a class="left carousel-control" href="#carousel-example-captions" role="button" data-slide="prev">
+
+						<i class="fa fa-chevron-left" style="position: absolute;top: 50%;z-index: 5;display: inline-block;margin-top: -10px;"></i>
+						<span class="sr-only">Previous</span>
+					</a>
+
+					<a class="right carousel-control" href="#carousel-example-captions" role="button" data-slide="next">
+						 <i class="fa fa-chevron-right" style="position: absolute;top: 50%;z-index: 5;display: inline-block;margin-top: -10px;"></i>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+
+				<!-- Carousel -->
+
+				 <br>
+
+
+
+				<h3 style="color: #27ae60">New Publications </h3>
+				<hr>
+
+				<div class="list-group" style="font-size: 15px;">
+				  <a href="https://drive.google.com/file/d/1nCkJCE1k3UqE0RqDxw-6tCnqj-IsAYxe/view?usp=sharing" target="_blank" class="list-group-item " >Forest succession models</a>
+				  <a href="https://drive.google.com/file/d/1HSHokpIh43bPC5W0k1S0X7_COMq8kHq0/view?usp=sharing" target="_blank" class="list-group-item " >Advances in forest landscape modeling</a>
+				  <a href="https://drive.google.com/file/d/1RXsv4b3w5oerpcyPYgUnG8eEVn-gy3ph/view?usp=sharing" target="_blank" class="list-group-item " >A global synthesis of tropical cyclones on forests</a>
+				  <a href="https://drive.google.com/file/d/1NmsBPcRhntigxU5fuF803FkvYjhFLDl5/view?usp=sharing" target="_blank" class="list-group-item " >A review of forest restoration programs in China </a>
+				  <a href="Journal-Articles.html" target="_blank" class="list-group-item " style="font-size: 18px;"><center><i class="fa fa-angle-double-down"></i> </center></a>
+				</div>
+
+
+				<!--
+				<h3 style="color: #27ae60">Software</h3>
+				<hr>
+
+				<div class="list-group" style="font-size: 15px;">
+				  <a href="http://users.tamuk.edu/kuwx2000/landisview.html" target="_blank" class="list-group-item " >LANDISVIEW</a>
+				  <a href="https://drive.google.com/file/d/1SA7FRgeAmJleJArPRrMkH2GXLRwPUTN2/view?usp=sharing" target="_blank" class="list-group-item " >LANDISVIEW Paper</a>
+				</div>
+
+
+
+				<h3 style="color: #27ae60">Useful Links</h3>
+				<hr>
+
+				<div class="list-group" style="font-size: 15px;">
+				  <a href="http://ecology.wisc.edu/" target="_blank" class="list-group-item " >Wisconsin Ecology</a>
+				  <a href="http://www.landscape-ecology.org/index.html" target="_blank" class="list-group-item " >The IALE</a>
+				  <a target="_blank" href="http://www.usiale.org/" class="list-group-item " >The US-IALE</a>
+				  <a target="_blank" href="http://www.esa.org/" class="list-group-item " >The ESA</a>
+				</div>
+				-->
+			</div>
+
+		</div>
+   </div>
+
+
+   <footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About The Xi Lab</span>
+					Research in the Xi lab focuses on plant biodiversity, ecosystem ecology, climate change biology, ecoinformatics and landscape modeling, ecology of human dissease and health, and global sustainability.
+				</p>
+
+
+
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p>Kingsville, Texas 78363, USA </p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 361-593-2758</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:weimin.xi@tamuk.edu"> weimin.xi@tamuk.edu</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-left">
+
+				<h3><span>The Xi Lab</span></h3>
+
+				<p class="footer-links">
+					<a href="Xi.html">Dr. Xi</a>
+					Â·
+					<a href="Journal-Articles.html">Publications</a>
+					Â·
+					<a href="Teaching.html">Teaching</a>
+					Â·
+					<a href="Prospective-Students.html">Prospective Students</a>
+					Â·
+					<a href="http://plantsearch.tamuk.edu/" target="_blank">Herbarium</a>
+					Â·
+					<a href="LandisView.html">Links</a>
+				</p>
+
+				<p class="footer-company-name">Weimin Xi &copy; 2022</p>
+			</div>
+
+
+
+
+		</footer>
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Script for Dropdown while hovering -->
+    <script src="js/bootstrap-hover-dropdown.min.js"></script>
+    <!-- Jssor js for carousel -->
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+        <script>
+        jQuery(document).ready(function ($) {
+
+            var options = {
+                $FillMode: 2,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $Idle: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
+                $SlideDuration: 800,                               //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $Cols: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
+
+                $BulletNavigatorOptions: {                          //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                 //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Rows: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 8,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 8,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                    $Scale: false                                   //Scales bullets navigator or not while slider scale
+                },
+
+                $ArrowNavigatorOptions: {                           //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+    <script>
+    	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
+
+
+function toggleChevron(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find("i.fa")
+        .toggleClass('fa-chevron-down fa-chevron-up');
+}
+$('#accordion').on('hidden.bs.collapse', toggleChevron);
+$('#accordion').on('shown.bs.collapse', toggleChevron);
+    </script>
+
+  </body>
+</html>
